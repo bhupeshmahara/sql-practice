@@ -9,7 +9,7 @@ star rating rounded to two decimal places. Sort the output first by month and th
 
 SELECT EXTRACT(MONTH FROM submit_date) AS mnth,
 product_id,
-ROUND(AVG(stars),2) AS avg_rating
+ROUND(AVG(stars), 2) AS avg_rating
 FROM reviews
 GROUP BY product_id, EXTRACT(MONTH FROM submit_date)
 ORDER BY mnth, product_id
