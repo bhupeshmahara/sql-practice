@@ -32,3 +32,4 @@ GROUP BY app_id
 )
 SELECT app_id, ROUND(100.0 * click/impression, 2) AS ctr
 FROM CTE
+
