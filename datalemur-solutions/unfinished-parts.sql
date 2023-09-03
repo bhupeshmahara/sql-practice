@@ -15,3 +15,4 @@ of the assembly process.
 SELECT part FROM parts_assembly
 WHERE finish_date IS NULL
 GROUP BY part;
+
