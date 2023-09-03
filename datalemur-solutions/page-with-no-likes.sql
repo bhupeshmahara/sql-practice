@@ -21,3 +21,4 @@ WHERE likes.page_id = pages.page_id);
 SELECT page_id FROM pages
 EXCEPT SELECT page_id FROM page_likes
 ORDER BY page_id;
+
