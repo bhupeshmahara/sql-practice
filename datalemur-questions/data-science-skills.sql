@@ -1,5 +1,6 @@
 /*
 Company Asked - LinkedIn
+Difficulty - Easy
 
 Given a table of candidates and their skills, you're tasked with finding the candidates
 best suited for an open Data Science job. You want to find candidates who are proficient
